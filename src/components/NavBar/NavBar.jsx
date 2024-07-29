@@ -8,7 +8,7 @@ const NavBar = () => {
       <Link to="/" className="brand">
         <img
           width={150}
-          src="src\components\img\tocloset_logo..webp"
+          src="public\img\tocloset_logo..webp"
           alt=""
         />
       </Link>
@@ -18,7 +18,7 @@ const NavBar = () => {
           <p>Hombre</p>
           <div className="img-category">
             <img
-              src="src\components\img\men.webp"
+              src="public\img\men.webp"
               alt=""
             />
           </div>
@@ -28,7 +28,7 @@ const NavBar = () => {
           <p>Mujeres</p>
           <div className="img-category">
             <img
-              src="src\components\img\Woman.png"
+              src="public\img\Woman.png"
               alt=""
             />
           </div>
@@ -38,7 +38,7 @@ const NavBar = () => {
           <p>Kids</p>
           <div className="img-category">
             <img
-              src="src\components\img\Children.webp"
+              src="public\img\Children.webp"
               alt=""
             />
           </div>

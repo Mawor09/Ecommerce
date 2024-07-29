@@ -11,7 +11,7 @@
     height: auto;
     margin: 0 5%;
     margin-bottom: 100px;
-    border: 2px solid gray;
+    border: 2px solid rgb(28, 27, 27);
     border-radius: 5px;
   }
   .item img{

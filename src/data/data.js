@@ -1,11 +1,11 @@
-const productos = [
+/*const productos = [
     {
       id: "h001",
       nombre: "Camisa Nike Hombre",
       descripcion: "Confort y estilo para cada movimiento.",
       stock: 20,
       categoria: "hombre",
-      imagen: "img/shopping.webp",
+      imagen: "public\img\shopping.webp",
       precio: 30
     },
     {
@@ -14,7 +14,7 @@ const productos = [
       descripcion: "Durabilidad y comodidad con un toque clásico.",
       stock: 10,
       categoria: "hombre",
-      imagen: "src\img\Mlevis.jpeg",
+      imagen: "public\img\Mlevis.jpeg",
       precio: 70
     },
     {
@@ -23,7 +23,7 @@ const productos = [
       descripcion: "Elegancia deportiva con máxima comodidad",
       stock: 40,
       categoria: "mujer",
-      imagen: "src\img\images.jpeg",
+      imagen: "public\img\images.jpeg",
       precio: 30
     },
     {
@@ -32,7 +32,7 @@ const productos = [
       descripcion: "Estilo atlético con ajuste perfecto y comodidad total.",
       stock: 10,
       categoria: "mujer",
-      imagen: "src\img\Leggings.jpg",
+      imagen: "public\img\Leggings.jpg",
       precio: 45
     },
     {
@@ -41,7 +41,7 @@ const productos = [
       descripcion: "Rendimiento superior con estilo y comodidad integrados.",
       stock: 5,
       categoria: "mujer",
-      imagen: "src\img\ConjuntoMujer.png",
+      imagen: "public\img\ConjuntoMujer.png",
       precio: 120
     },
     {
@@ -50,7 +50,7 @@ const productos = [
       descripcion: "Comodidad y estilo para los más pequeños.",
       stock: 10,
       categoria: "kids",
-      imagen: "src/img/Conjunto ninos.JPEG",
+      imagen: "public\img\Conjunto ninos.JPEG",
       precio: 140
     },
     {
@@ -59,7 +59,7 @@ const productos = [
       descripcion: "Comodidad y estilo para las más pequeñas.",
       stock: 10,
       categoria: "kids",
-      imagen: "src\img\Conjunto ninas.JPEG",
+      imagen: "public\img\Conjunto ninas.JPEG",
       precio: 160
     },
     {
@@ -68,17 +68,14 @@ const productos = [
       descripcion: "Suavidad y comodidad para los más pequeñitos.",
       stock: 5,
       categoria: "kids",
-      imagen: "src\img\Conjunto bebes.jpeg",
+      imagen: "public\img\Conjunto bebes.jpeg",
       precio: 110
     },
   ]
   
   const obtenerProductos = () => {
     return new Promise((resolve, reject) => {
-      //simulamos un retraso de red de 2 segundos
-      setTimeout(() => {
-        resolve(productos)
-      }, 2000)
+      
     })
   }
   
